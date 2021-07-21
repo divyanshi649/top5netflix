@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #d2dbdd;
+}
+.heading_style{
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Raleway",sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color:#868686;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.cards{
+  width: 100%;
+  height: 50%;
+  float:inline-start;
+}
+.card{
+  display: inline;
+  float: left;
+}
+button{
+  background-color: brown;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.card{
+  float:left;
+  width:50%;
+  height:50%;
+}
+.cards::after{
+  display: table;
+  clear: both;
+}
+.card_img{
+  width: 50%;
+  height:70%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 400px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card_info{
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.card_title{
+  padding-bottom: 5px;
+}
+.card:hover {
+  box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+}
+/*code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.para {
+  margin-left: 45%;
+  text-decoration-style: double;
+  color:white;
+  font-weight: bolder;
+}
+.pp {
+  margin-left: 20%;
+  color:black;
+}
+.list{
+  margin-left: 45%;
+  list-style: disc;
+  color:blue;
+  font-size: large;
+  color:p
+}
+.img{
+  text-align: center;
+}*/
